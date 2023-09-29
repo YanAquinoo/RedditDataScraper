@@ -42,7 +42,7 @@ def save_data_on_file(subreddit_name, subreddit_data):
 def process_subreddit(subreddit_name):
     try:
         subreddit = reddit.subreddit(subreddit_name.lower())
-        top_posts = subreddit.top(limit=1)
+        top_posts = subreddit.top(limit=None)
         subreddit_data = []
 
         # Create a dictionary for each post with desired data
