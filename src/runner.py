@@ -8,7 +8,7 @@ logging.basicConfig(filename='logs/reddit_scraper_runner.log', level=logging.INF
 # Constants for file paths and intervals
 INPUT_FILE_NAME = "files/subreddits.txt"
 OUTPUT_FILE_NAME = "files/mined_subreddits.txt"
-REDDIT_PROGRAM_PATH = "src/trojan.py"
+REDDIT_PROGRAM_PATH = "src/scraper.py"
 EXECUTION_INTERVAL = 6
 
 # Read all lines from a file
