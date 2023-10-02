@@ -13,10 +13,10 @@ SUBEREDDITS_FILE = "files/subreddits.txt"
 MINED_SUBREDDITS_FILE = "files/mined_subreddits.txt"
 
 # Define Reddit API credentials
-CLIENT_ID = "WbZPw1kfqgln7VbQbtWAHA"
-CLIENT_SECRET = "zGYuO1y5hN9Zott_VgEnNdSpVDphdg"
-USERNAME = "toninlolo"
-PASSWORD = "safadona123"
+CLIENT_ID = "Replace this with your client ID"
+CLIENT_SECRET = "Replace this with your client secret"
+USERNAME = "Replace this with your username"
+PASSWORD = "Replace this with your password"
 
 # Create a Reddit instance
 reddit = praw.Reddit(
@@ -24,7 +24,7 @@ reddit = praw.Reddit(
     client_secret=CLIENT_SECRET,
     username=USERNAME,
     password=PASSWORD,
-    user_agent="python:datacraper:v1.0.0 (by u/AntonioFerreiraMine>)"
+    user_agent="python:datacraper:v1.0.0 (by u/YourUsername>)"
 )
 
 # Save the subreddit data to a JSON file
