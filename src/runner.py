@@ -9,7 +9,7 @@ logging.basicConfig(filename='logs/reddit_scraper_runner.log', level=logging.INF
 INPUT_FILE_NAME = "files/subreddits.txt"
 OUTPUT_FILE_NAME = "files/mined_subreddits.txt"
 REDDIT_PROGRAM_PATH = "src/scraper.py"
-EXECUTION_INTERVAL = 6
+EXECUTION_INTERVAL = 600
 
 # Read all lines from a file
 def read_file_lines(file_name):
