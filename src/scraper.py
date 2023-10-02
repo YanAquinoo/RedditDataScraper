@@ -8,7 +8,6 @@ from prawcore.exceptions import TooManyRequests, RequestException, PrawcoreExcep
 # Set up logging
 logging.basicConfig(filename='logs/reddit_scraper.log', level=logging.INFO)
 
-
 # Define the file paths
 SUBEREDDITS_FILE = "files/subreddits.txt"
 MINED_SUBREDDITS_FILE = "files/mined_subreddits.txt"
