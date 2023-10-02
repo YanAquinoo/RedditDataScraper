@@ -25,16 +25,16 @@ It consists of two main components: `runner.py` and `scraper.py`.
   - `mined_subreddits.txt`: This file stores the names of subreddits that have already been mined by the scraper to avoid redundant data collection.
   - `subreddits.txt`: You can specify the list of subreddits you want to scrape in this file.
 
-#### Logs
+### Logs
 
   - `reddit_scraper.log`: This log file records the activity and any errors that occur during data scraping.
   - `reddit_scraper_runner.log`: The runner script logs its activities and any errors here.
 
-#### Output
+### Output
 
 This directory is where the scraped data will be saved. Each subreddit's data is stored in a JSON file with a name in the format `subredditname_data.json`.
 
-#### Source Code
+### Source Code
 
   - `runner.py`: This script is responsible for running the scraper at specified intervals until all subreddits are mined.
   - `scraper.py`: The scraper script connects to the Reddit API, collects data from the specified subreddits, and saves it to JSON files.
